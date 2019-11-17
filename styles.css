@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    width: 100%;
+}
+
+#photos {
+    padding-top: 25px;
+}
+
+.wide-images {
+    width: 300px;
+    margin: 10px;
+}
+.tall-images {
+    width: 218px;
+    margin: 10px;
+}
+
+a.nav-link > #order-btn {
+    border: blueviolet 1px solid;
+    padding: 4px;
+    border-radius: 10px;
+    color: blueviolet;
+}
+
+.mycontainer {
+    width: 100%;
+    text-align: center;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.contact-info {
+    margin: 30px;
+    text-align: center;
+    /* color: blueviolet; */
+}
+
+.action-btns {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contact-links li {
+    list-style-type: none;
+    text-align: center;
+}
+.contact-links li a{
+    color: blueviolet
+}
+.contact-links li a:hover{
+    cursor: pointer;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+.text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
+
+.btn-primary, 
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus  {
+    background-color: blueviolet;
+    border: none;
+}
